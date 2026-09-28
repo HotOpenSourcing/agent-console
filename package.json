@@ -1,7 +1,7 @@
 {
   "name": "@lockedinlabs/agent-console",
   "version": "0.4.1",
-  "description": "Agent Console by LockedIn Labs: one view of the AI coding agents on every machine you connect — sessions, tokens, cache reads and writes, models and spend. Zero dependencies.",
+  "description": "Agent Console by LockedIn Labs: one view of the AI coding agents on every machine you connect \u2014 sessions, tokens, cache reads and writes, models and spend. Zero dependencies.",
   "keywords": [
     "claude-code",
     "codex",
@@ -47,7 +47,7 @@
     "THIRD_PARTY_NOTICES.md"
   ],
   "scripts": {
-    "start": "node bin/agent-console.mjs",
+    "start": "node init && node bin/agent-console.mjs",
     "test": "node scripts/test.mjs",
     "pack:check": "npm pack --dry-run --json",
     "smoke:pack": "node scripts/pack-smoke.mjs",
